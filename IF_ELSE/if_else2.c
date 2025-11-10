@@ -7,7 +7,7 @@
  else
  printf("you are not a you are papa");
         
-
+return 0;
  }
  
  
