@@ -5,5 +5,10 @@
  printf("you are an yung");
  }
  else
- printf("you are not an you are papa");
+ printf("you are not a you are papa");
+        
+
  }
+ 
+ 
+ 

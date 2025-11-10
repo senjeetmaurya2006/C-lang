@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "LOOPSUM.C": "cpp",
+        "TABLE.C": "cpp",
+        "REVERCE.C": "cpp",
+        "PRINT_EVEN.C": "cpp",
+        "numbercount.C": "cpp",
+        "HOLLOWRACT.C": "cpp",
+        "ELSE IF.C": "cpp",
+        "ELSE_IF.C": "cpp"
+    }
+}
