@@ -7,6 +7,8 @@
         "numbercount.C": "cpp",
         "HOLLOWRACT.C": "cpp",
         "ELSE IF.C": "cpp",
-        "ELSE_IF.C": "cpp"
+        "ELSE_IF.C": "cpp",
+        "FACTORIAL.C": "cpp",
+        "FUN.C": "cpp"
     }
 }

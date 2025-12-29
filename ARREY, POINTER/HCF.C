@@ -1,0 +1,38 @@
+
+#include <stdio.h>
+
+int min(int a, int b) {
+    if (a < b) return a;
+    else return b;
+}
+
+int gcd(int a, int b) {
+    int hcf = 1; // initialize to 1
+    int m = min(a, b);
+
+    // Make sure we work with non-negative values
+    if (a < 0) a = -a;
+    if (b < 0) b = -b;
+
+    for (int i = 1; i <= m; i++) {
+        if (a % i == 0 && b % i == 0) {
+            hcf = i;
+        }
+    }
+    return hcf;
+}
+
+int main() {
+    int a, b;
+
+    printf("Enter 1st number : ");
+    scanf("%d", &a);
+
+    printf("Enter 2nd number : ");
+    scanf("%d", &b);
+
+    int hcf = gcd(a, b);
+    printf("The HCF/GCD of %d and %d is : %d\n", a, b, hcf);
+
+    return 0;
+}
